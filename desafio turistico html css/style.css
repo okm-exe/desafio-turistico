@@ -1,0 +1,101 @@
+:root {
+    --text-1: #1b1b1b;
+    --text-2: #333333;
+    --text-3: #696969;
+    --text-headline: #e1624f;
+    --accent-b: #0c51a7;
+    --accent-o: #e95e10;
+    --accent-pi: #e5245e;
+    --accent-pu: #591b98;
+}
+* {
+    font-family: 'Open Sans';
+    margin: 0;
+    padding: 0;
+}
+#app {
+    
+    box-sizing: border-box;
+    width: 900px;
+    margin: 40px auto 40px;
+    align-items: center;
+}
+h1 {
+    font-size: 36px;
+}
+h2 {
+    font-size: 32px;
+}
+h3 {
+    padding-left: 5px;
+    font-size: 27px;
+}
+.description {
+    color: var(--text-2);
+    font-style: italic;
+    text-align: center;
+    font-size: 13px;
+
+}
+.headline {
+    color: var(--text-headline);
+    font-weight: bold;
+}
+#mainIMG {
+    margin-top: 30px;
+    height: 660px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.olIMG {
+    border-radius: 16px;
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 15px;
+}
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h2 {
+    margin-bottom: 12px;
+}
+ul, .ulHEADER {
+    font-weight: 700;
+}
+ul > :first-child {
+    color: var(--accent-b);
+}
+ul >:nth-child(2) {
+    color: var(--accent-pi);
+}
+ul >:nth-child(3) {
+    color: var(--accent-o)
+}
+.paragraph {
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 15px;
+    color: var(--text-2);
+}
+.block {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#ending {
+    font-size: 14px;
+    text-align: center;
+}
+#ol > li {
+    font-size: 28px;
+    font-weight: 600;
+}
+ul {
+    margin: 0 0 15px;
+}
+ol {
+    list-style-position: inside;
+}
